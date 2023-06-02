@@ -1,8 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Homepage from "./pages/Homepage";
-import MovieSummary from "./pages/MovieSummary";
-import BookingForm from "./pages/BookingForm";
+import Homepage from "./components/Homepage";
+import MovieSummary from "./components/MovieSummary";
+import BookingForm from "./components/BookingForm";
 
 const App = () => {
   return (
