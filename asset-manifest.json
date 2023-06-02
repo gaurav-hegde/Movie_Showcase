@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/QuadBTech_Task/static/css/main.2b54913a.css",
+    "main.js": "/QuadBTech_Task/static/js/main.d60bfbb5.js",
+    "index.html": "/QuadBTech_Task/index.html",
+    "main.2b54913a.css.map": "/QuadBTech_Task/static/css/main.2b54913a.css.map",
+    "main.d60bfbb5.js.map": "/QuadBTech_Task/static/js/main.d60bfbb5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2b54913a.css",
+    "static/js/main.d60bfbb5.js"
+  ]
+}
