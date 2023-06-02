@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./Homepage.css";
+import Gif from "../assets/scroll.png";
 
 const Homepage = () => {
   const [shows, setShows] = useState([]);
@@ -13,9 +14,13 @@ const Homepage = () => {
   }, []);
 
   return (
-    <div>
+    <div className="page">
       <div className="landing">
-        <h1 className="header">Welcome to QuadB Tech</h1>
+        <h1 className="header">Welcome to the Movie Showcase</h1>
+        <p className="sub-header">
+          Discover and book your favorite shows and movies.
+        </p>
+        <img className="scroll" src={Gif} alt="scroll" />
       </div>
 
       <h1 className="header">Popular Shows</h1>

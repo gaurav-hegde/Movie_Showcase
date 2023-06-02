@@ -29,7 +29,7 @@ const BookingForm = () => {
   }, [selectedMovie]);
 
   return (
-    <div>
+    <div className="page">
       <h1 className="header">Booking Form</h1>
       <div className="movie-name">
         {selectedMovie && (
