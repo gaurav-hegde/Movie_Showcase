@@ -38,6 +38,10 @@ h1 {
   margin-bottom: 1.25rem;
 }
 
+.image {
+  height: 20rem;
+}
+
 .card-container {
   margin: 3rem;
   display: grid;

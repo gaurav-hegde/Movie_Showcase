@@ -24,7 +24,11 @@ const Homepage = () => {
           <div key={show.show.id} className="card">
             <div className="card-body">
               <h4 className="card-text">Rating: {show.show.rating.average}</h4>
-              <img src={show.show.image.medium} alt={show.show.name} />
+              <img
+                className="image"
+                src={show.show.image.medium}
+                alt={show.show.name}
+              />
               <h2 className="card-title">{show.show.name}</h2>
               <p className="card-text">Language: {show.show.language}</p>
               <p className="card-text">Timing: {show.show.schedule.time}</p>
