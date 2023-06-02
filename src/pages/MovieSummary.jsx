@@ -37,14 +37,16 @@ const MovieSummary = () => {
           </div>
           <div className="timing">
             <h3>Timing: {show.schedule.time}</h3>
-
             <h3>Day: {show.schedule.days}</h3>
           </div>
           <div className="summary">
             <h3>Summary:</h3>
             <p>{show.summary}</p>
           </div>
-          <Link to="/booking" className="btn btn-primary">
+          <Link
+            to={`/booking?movie=${encodeURIComponent(JSON.stringify(show))}`}
+            className="btn btn-primary"
+          >
             Book Now
           </Link>
         </div>
